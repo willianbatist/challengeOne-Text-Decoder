@@ -1,3 +1,8 @@
+const btnCriptografar = document.getElementById("btn-criptografar");
+const textNone = document.getElementById("text-view");
+const textDecoder = document.getElementById("view-decoder");
+const p = document.getElementById("text");
+const textarea = document.getElementById("textarea");
 const A = /A/ig;
 const E = /E/ig;
 const I = /I/ig;
@@ -33,3 +38,12 @@ function handleTextDecoder(text) {
   }
   return newText;
 }
+
+function clickDecoder() {
+  textNone.style.display="none";
+  textDecoder.style.display="block";
+  p.innerHTML=handleTextDecoder(textarea.value);
+}
+
+
+btnCriptografar.addEventListener("click", clickDecoder);

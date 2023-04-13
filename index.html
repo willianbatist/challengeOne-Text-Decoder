@@ -10,22 +10,27 @@
 <body>
   <div class="container-text-decoder">
     <img class="logo-a" src="a.png" alt="Logo do site, é a letra A">
-    <textarea placeholder="Digite seu texto" id="w3review" name="w3review" rows="4" cols="50"></textarea>
+    <textarea id="textarea" placeholder="Digite seu texto" id="w3review" name="w3review" rows="4" cols="50"></textarea>
     <div class="container-alert-btn">
       <div class="container-alert">
         <img src="alert.png" alt="icone de alerta">
         <p>Apenas letras minúsculas e sem acento.</p>
       </div>
       <div class="container-btn">
-        <button class="btn-criptografar" type="button">Criptografar</button>
-        <button class="btn-descriptografar" type="button">Descriptografar</button>
+        <button id="btn-criptografar" type="button">Criptografar</button>
+        <button id="btn-descriptografar" type="button">Descriptografar</button>
       </div>
     </div>
   </div>
   <div class="container-view-text">
-    <img src="character.png" alt="imagem que mostra personagem de joelhos usando uma lupa">
-    <h2>Nenhuma mensagem encontrada</h2>
-    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+    <div id="text-view">
+      <img id="img" src="character.png" alt="imagem que mostra personagem de joelhos usando uma lupa">
+      <h2>Nenhuma mensagem encontrada</h2>
+      <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+    </div>
+    <div id="view-decoder" style="display: none;">
+      <p id="text"></p>
+    </div>
   </div>
   <script src="index.js"></script>
 </body>

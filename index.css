@@ -74,7 +74,7 @@ textarea::placeholder {
   height: 16px;
 }
 
-.btn-criptografar {
+#btn-criptografar {
   cursor: pointer;
   padding: 24px;
   width: 328px;
@@ -89,11 +89,11 @@ textarea::placeholder {
   text-align: center;
   color: #FFFFFF;
 }
-.btn-criptografar:hover {
+#btn-criptografar:hover {
   background: #0a3871c9;
 }
 
-.btn-descriptografar {
+#btn-descriptografar {
   margin-left: 10px;
   cursor: pointer;
   width: 328px;
@@ -108,7 +108,7 @@ textarea::placeholder {
   text-align: center;
   color: #0A3871;
 }
-.btn-descriptografar:hover {
+#btn-descriptografar:hover {
   background: #b2c8e4;
 }
 
@@ -122,6 +122,20 @@ textarea::placeholder {
   background: #FFFFFF;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
   border-radius: 32px;
+}
+
+#text-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#view-decoder p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #495057;
 }
 
 .container-view-text img {
