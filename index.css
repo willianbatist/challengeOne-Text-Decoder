@@ -8,6 +8,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: #E5E5E5;
+  font-family: 'Inter', sans-serif;
 }
 
 textarea:focus, input:focus, select:focus {
@@ -31,9 +33,40 @@ textarea {
   margin-top: 168px;
   margin-left: 100px;
   height: 300px;
+  background: #E5E5E5;
+  width: 60%;
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0A3871;
 }
 
+textarea::placeholder {
+  color: #0a3871af;
+}
 
+.container-alert {
+  display: flex;
+  align-items: center;
+}
+.container-alert p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.container-alert img {
+  width: 16px;
+  height: 16px;
+}
 
 .container-view-text {
   border: 2px solid red;
