@@ -56,6 +56,7 @@ textarea::placeholder {
 .container-alert {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 .container-alert p {
   font-family: 'Inter', sans-serif;
@@ -93,6 +94,7 @@ textarea::placeholder {
 }
 
 .btn-descriptografar {
+  margin-left: 10px;
   cursor: pointer;
   width: 328px;
   height: 67px;
@@ -111,6 +113,39 @@ textarea::placeholder {
 }
 
 .container-view-text {
-  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 30%;
+  height: 900px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+.container-view-text img {
+  width: 70%;
+}
+
+.container-view-text h2 {
+  padding: 10px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  text-align: center;
+  color: #343A40;
+}
+
+.container-view-text p {
+  padding: 10px;
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #495057;
 }
