@@ -61,10 +61,10 @@ textarea::placeholder {
 .container-alert p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: bolder;
   font-size: 18px;
   line-height: 150%;
-  color: #495057;
+  color: #0A3871;
   opacity: 0.8;
   margin-left: 10px;
 }
@@ -270,5 +270,85 @@ textarea::placeholder {
   #copy {
     width: 200px;
     height: 45px;
+  }
+}
+
+@media (max-width: 760px) {
+  body {
+    flex-direction: column;
+  }
+  #img {
+    display: none;
+  }
+  textarea {
+    margin-left: 0px;
+    font-size: 25px;
+  }
+  .container-alert-btn {
+    margin-left: 0px;
+  }
+  .container-view-text {
+    height: 250px;
+    width: 80%;
+  }
+  #view-decoder p {
+  font-size: 20px;
+  }
+  #copy {
+    width: 150px;
+    height: 40px;
+  }
+  #btn-criptografar {
+    width: 180px;
+    height: 52px;
+  }
+  #btn-descriptografar {
+    width: 180px;
+    height: 52px;
+  }
+  .container-view-text h2 {
+    font-size: 20px;
+  }
+  .container-view-text p {
+    font-size: 14px;
+  }
+  .container-alert p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  textarea {
+    width: 100%;
+    font-size: 15px;
+    height: 200px;
+  }
+  .container-alert p {
+    font-size: 10px;
+  }
+
+  #btn-criptografar {
+    width: 180px;
+    height: 52px;
+    font-size: 14px;
+  }
+  #btn-descriptografar {
+    width: 180px;
+    height: 52px;
+    font-size: 14px;
+  }
+  .container-view-text {
+    margin-top: -50px;
+  }
+  @media (max-height: 900px) {
+    .container-alert-btn {
+      margin-top: 0rem;
+    }
+  .container-text-decoder {
+    height: 600px;
+    }
+    .container-view-text {
+      margin-top: -100px;
+    }
   }
 }
