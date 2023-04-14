@@ -75,6 +75,9 @@ textarea::placeholder {
 }
 
 #btn-criptografar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   padding: 24px;
   width: 328px;
@@ -94,6 +97,9 @@ textarea::placeholder {
 }
 
 #btn-descriptografar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 10px;
   cursor: pointer;
   width: 328px;
@@ -169,6 +175,11 @@ textarea::placeholder {
   color: #495057;
 }
 
+.container-btn {
+  display: flex;
+  align-items: center;
+}
+
 #copy {
   margin-top: 20px;
   margin-left: 10px;
@@ -192,4 +203,72 @@ textarea::placeholder {
 
 #copy:active {
   background: #0a3871c9;
+}
+
+
+@media (max-height: 970px) {
+  .container-alert-btn {
+    margin-top: 15rem;
+  }
+
+  .container-view-text {
+    height: 700px;
+  }
+}
+
+@media (max-height: 870px) {
+  .container-alert-btn {
+    margin-top: 7rem;
+  }
+
+  .container-view-text {
+    height: 700px;
+  }
+}
+
+@media (max-height: 740px) {
+  .container-alert-btn {
+    margin-top: 4rem;
+  }
+
+  .container-view-text {
+    height: 600px;
+  }
+}
+
+@media (max-height: 680px) {
+  textarea {
+    margin-top: 70px;
+    height: 250px;
+  }
+  .container-alert-btn {
+    margin-top: 0rem;
+  }
+
+  .container-view-text {
+    height: 500px;
+  }
+
+  #btn-descriptografar {
+    width: 250px;
+    height: 60px;
+  }
+  #btn-criptografar {
+    width: 250px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1190px) {
+  #copy {
+    width: 250px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 940px) {
+  #copy {
+    width: 200px;
+    height: 45px;
+  }
 }
