@@ -163,3 +163,27 @@ textarea::placeholder {
   text-align: center;
   color: #495057;
 }
+
+#copy {
+  margin-left: 10px;
+  cursor: pointer;
+  width: 328px;
+  height: 67px;
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #0A3871;
+}
+
+#copy:hover {
+  background: #b2c8e4;
+}
+
+#copy:active {
+  background: #0a3871c9;
+}
