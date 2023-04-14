@@ -52,12 +52,14 @@ function handleTextEncoder(text) {
 
 function clickDecoder() {
   textNone.style.display="none";
-  textDecoder.style.display="block";
+  textDecoder.style.display="flex";
   p.innerHTML=handleTextDecoder(textarea.value);
   textarea.value="";
 }
 
 function clickEncoder() {
+  textNone.style.display="none";
+  textDecoder.style.display="flex";
   p.innerHTML=handleTextEncoder(textarea.value);
   textarea.value="";
 }
