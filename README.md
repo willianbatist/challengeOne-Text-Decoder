@@ -7,7 +7,7 @@ Este repositório contem o **Projeto Text Decoder** que reúne o aprendizado des
 ### Deploy do Site: [Projeto Text Decoder](https://text-decoder-by-willian.netlify.app/)
 ![](textDecoder.gif)
 
-####
+#### Habilidades que foram exigidas:
 
   - Logica de programação;
   - Clean Code;
