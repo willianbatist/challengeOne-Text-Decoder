@@ -12,7 +12,7 @@ Este repositório contem o **Projeto Text Decoder** que reúne o aprendizado des
   - Logica de programação;
   - Clean Code;
 
-#### Tecnologias utilizadas:
+####
 
   - HTML;
   - CSS;
